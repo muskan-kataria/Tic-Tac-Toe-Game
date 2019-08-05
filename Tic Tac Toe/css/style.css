@@ -1,0 +1,65 @@
+
+body {
+    background: linear-gradient(35deg, 	#FF7F50 49.9%, 
+       #FFA500  50%) fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    font-family: Impact, Charcoal, sans-serif, cursive;
+    font-weight: bold;
+    color: white;
+}
+
+html {
+    height: 100%;
+}
+
+.header{
+
+height:100px;
+
+
+}
+
+#p
+{
+color: black;
+    
+}
+#box{
+
+    padding-left:40px;
+    padding-top: 30px;
+    
+	text-align:left;
+
+	width:auto;
+	height:auto;
+
+	
+}
+
+
+
+canvas
+{
+    position:relative;
+}
+
+
+
+.container {
+  
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#outer{
+    border-color: blueviolet;
+    border-style: dashed;
+        
+        
+	width:400px;
+	height:400px;
+}
