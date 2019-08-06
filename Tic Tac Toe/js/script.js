@@ -6,7 +6,10 @@ function init()
     
    
     complete=0;
- 
+  
+document.getElementById("box").style.visibility = "visible";
+   
+document.getElementById("outer").style.visibility = "visible";
 }
 
 		var filled;
@@ -21,7 +24,7 @@ var res=0;
 
 		
 	window.onload=function(){
-			
+	
 			filled = new Array();
 			shape = new Array();
 			winningCombinations = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
@@ -71,10 +74,7 @@ var res=0;
 				squaresFilled++;
 				
 
-				if(squaresFilled==9){
-					alert("THE GAME IS OVER!");
-					location.reload(true);
-				}
+			
 			
 			}
 			else{
@@ -95,6 +95,13 @@ var res=0;
              },1000);
             
             }
+            
+            	if(squaresFilled==9){
+					alert("THE GAME IS OVER!");
+					setTimeout(function(){
+             location.reload(true);
+             },2000);
+				}
             
             
 
